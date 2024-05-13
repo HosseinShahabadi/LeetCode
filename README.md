@@ -1,2 +1,6 @@
 # LeetCode
-Explore my LeetCode Solutions repository! 🚀 Discover my journey through solving LeetCode coding challenges, from simple warm-ups to complex algorithms. Join me as I document different problem-solving techniques and contribute your solutions. Let's master LeetCode challenges together. Happy coding!
+Welcome to my LeetCode solutions repository! 🚀 
+
+Here, I have documented my solutions to LeetCode coding challenges, offering insights into different problem-solving techniques. From easy warm-ups to intricate algorithms, you can explore and learn alongside me as we navigate through these problems. 
+
+Feel free to contribute your own solutions and join me in mastering LeetCode challenges. Happy coding!
