@@ -1,5 +1,5 @@
 ## <a href="https://leetcode.com/problems/find-the-safest-path-in-a-grid/">2812. Find the Safest Path in a Grid</a>
-###### Hard
+###### Medium
 
 ##### A big thanks to "gameboey" on LeetCode.com for providing a more efficient solution. I had my own approach, but your answer was clearly better, so I shared it with credit to you!
 
