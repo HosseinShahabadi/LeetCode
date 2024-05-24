@@ -1,3 +1,8 @@
+"""
+Thanks to hi-malik for providing a solution with better time and space complexity.
+This solution improves on the original by avoiding deep copies and using efficient state management.
+"""
+
 class Solution:
     def maxScoreWords(self, words: list[str], letters: list[str], score: list[int]) -> int:
         count = [0] * 26
