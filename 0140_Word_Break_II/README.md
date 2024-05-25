@@ -1,6 +1,8 @@
 ## <a href="https://leetcode.com/problems/word-break-ii/">140. Word Break II</a>
 ###### Hard
 
+#### <a href="https://leetcode.com/problems/word-break-ii/solutions/5207482/efficient-backtracking-with-memoization-for-word-break-ii-beats-100-in-time-43-in-space">Efficient Backtracking with Memoization for Word Break II (Beats 100% in Time, 43% in Space)</a> 
+
 <div><p>Given a string <code>s</code> and a dictionary of strings <code>wordDict</code>, add spaces in <code>s</code> to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in <strong>any order</strong>.</p>
 
 <p><strong>Note</strong> that the same word in the dictionary may be reused multiple times in the segmentation.</p>
