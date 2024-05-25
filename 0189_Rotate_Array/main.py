@@ -1,17 +1,22 @@
 class Solution:
-    def rotate(self, nums: List[int], k: int) -> None:
+    def rotate(self, nums: list[int], k: int) -> None:
         n = len(nums)
         k %= n
         if k == 0:
             return
-        
-        def reverse(start: int, end: int) -> None:
-            while start < end:
-                nums[start], nums[end] = nums[end], nums[start]
-                start += 1
-                end -= 1
 
-        reverse(0, n - 1)
-        reverse(0, k - 1)
-        reverse(k, n - 1)
+        count = 0
+        start = 0
         
+        while count < n:
+            current = start
+            prev_value = nums[start]
+            while True:
+                next_index = (current + k) % n
+                nums[next_index], prev_value = prev_value, nums[next_index]
+                current = next_index
+                count += 1
+
+                if start == current:
+                    break
+            start += 1
